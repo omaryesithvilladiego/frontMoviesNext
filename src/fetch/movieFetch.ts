@@ -1,5 +1,5 @@
 import { IMovie, IOptionsFilter } from "@/interfaces/interfaces";
-const urlBack = "http://localhost:3001/";
+const urlBack = "https://backendmoviesnest.onrender.com/";
 
 export const getMoviesFetch = async (options: IOptionsFilter): Promise<any> => {
   let { genres, popularity, keywords, page } = options;
